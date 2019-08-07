@@ -5,6 +5,6 @@ const site = http.createServer(function(req,res){
     res.setHeader('content-type','text/html');
     console.log(req.rawHeader);
     
-    res.end("what should i do here");
+    res.end("<h1>what should i do here</h1>");
 })
 site.listen(3000);
